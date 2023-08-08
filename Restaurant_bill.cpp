@@ -29,12 +29,12 @@ int calc(int x)
   cgst = (x * 2.5) / 100;
   netbill = x - discount + sgst + cgst;
 
- 
-
-  cout <<"Discount......  "<< discount << endl;
-  cout <<"SGST............"<<  sgst << endl;
-  cout <<"CGST............"<<  cgst << endl;
-  cout <<"Net amount......"<<  netbill << endl;
+  cout<<"............................"<<endl;
+  cout <<"Discount..................."<<"\t"<< discount << endl;
+  cout <<"SGST......................."<<"\t"<<  sgst << endl;
+  cout <<"CGST......................."<<"\t"<<  cgst << endl;
+  cout<<"............................"<<endl;
+  cout <<"Net amount................."<<"\t"<< netbill << endl;
   
 }
 
@@ -160,9 +160,9 @@ int main()
     }
 
   } while (ch != 11);
-   cout << "         Hi - FI               " << endl;
-   cout << "    Fast Food & Cold drinks  " << endl;
- cout<<"Item......"<<"\t"<<"Qty"<<"\t"<<"Price"<<"\t"<<"total"<<endl;
+   cout << "            Hi - FI               " << endl;
+   cout << "      Fast Food & Cold drinks  " << endl;
+ cout<<"Item..........."<<"\t"<<"Qty"<<"\t"<<"Price"<<"\t"<<"total"<<endl;
 if(quantity[0]!=0)
  cout<<"1.panipuri....."<<"\t"<<quantity[0]<<"\t"<<"20"<<"\t"<<20 * quantity[0]<<endl;
  if(quantity[1]!=0)
