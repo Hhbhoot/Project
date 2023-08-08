@@ -30,6 +30,7 @@ int calc(int x)
   netbill = x - discount + sgst + cgst;
 
   cout<<"............................"<<endl;
+  cout<<"Total bill.................."<<"\t"<< x <<endl;
   cout <<"Discount..................."<<"\t"<< discount << endl;
   cout <<"SGST......................."<<"\t"<<  sgst << endl;
   cout <<"CGST......................."<<"\t"<<  cgst << endl;
