@@ -44,6 +44,7 @@ int main()
   bill b;
   int ch;
   int quantity[10]={0,0,0,0,0,0,0,0,0,0};
+  int n[10]={0,0,0,0,0,0,0,0,0,0};
   int price;
   int amount;
   int total = 0;
@@ -69,85 +70,85 @@ int main()
     case 1:
       cout << "Enter quantity " << endl;
 
-      cin >> quantity[0];
-      amount = 20 * quantity[0];
+      cin >> n[0];
+      amount = 20 * n[0];
       total += amount;
-      quantity[0]+=quantity[0];
+      quantity[0]+=n[0];
       break;
 
     case 2:
       cout << "Enter quantity " << endl;
-      cin >> quantity[1];
-      amount = total + 30 * quantity[1];
+      cin >> n[1];
+      amount = 30 * n[1];
       total += amount;
-      quantity[1]+=quantity[1];
+      quantity[1]+=n[1];
 
       break;
 
     case 3:
       cout << "Enter quantity " << endl;
-      cin >> quantity[2];
-      amount = total + 30 * quantity[2];
+      cin >> n[2];
+      amount = 30 * n[2];
       total += amount;
-      quantity[2]+=quantity[2];
+      quantity[2]+=n[2];
       break;
 
     case 4:
       cout << "Enter quantity " << endl;
-      cin >> quantity[3];
+      cin >> n[3];
 
-      amount = total + 40 * quantity[3];
+      amount =  40 * n[3];
       total += amount;
-      quantity[3]+=quantity[3];
+      quantity[3]+=n[3];
       break;
 
     case 5:
       cout << "Enter quantity " << endl;
-      cin >> quantity[4];
-      amount = total + 30 * quantity[4];
+      cin >> n[4];
+      amount =  30 * n[4];
       total += amount;
-      quantity[4]+=quantity[4];
+      quantity[4]+=n[4];
 
       break;
 
     case 6:
       cout << "Enter quantity " << endl;
-      cin >> quantity[5];
-      amount = total + 20 * quantity[5];
+      cin >> n[5];
+      amount =  20 * quantity[5];
       total += amount;
-      quantity[5]+=quantity[5];
+      quantity[5]+=n[5];
       break;
 
     case 7:
       cout << "Enter quantity " << endl;
-      cin >> quantity[6];
-      amount = total + 30 * quantity[6];
+      cin >> n[6];
+      amount =  30 * quantity[6];
       total += amount;
-      quantity[6]+=quantity[6];
+      quantity[6]+=n[6];
       break;
 
     case 8:
       cout << "Enter quantity " << endl;
-      cin >> quantity[7];
-      amount = total + 30 * quantity[7];
+      cin >> n[7];
+      amount =  30 * n[7];
       total += amount;
-      quantity[7]+=quantity[7];
+      quantity[7]+=n[7];
       break;
 
     case 9:
       cout << "Enter quantity " << endl;
-      cin >> quantity[8];
-      amount = total + 50 * quantity[8];
+      cin >> n[8];
+      amount =  50 * n[8];
       total += amount;
-      quantity[8]+=quantity[8];
+      quantity[8]+=n[8];
       break;
 
     case 10:
       cout << "Enter quantity " << endl;
-      cin >> quantity[9];
-      amount = total + 10 * quantity[9];
+      cin >> n[9];
+      amount =  10 * n[9];
       total += amount;
-      quantity[9]+=quantity[9];
+      quantity[9]+=n[9];
       break;
 
     case 11:
