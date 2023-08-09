@@ -6,7 +6,7 @@ class bill
 
 public:
   string name;
-  int number;
+  double number;
 
   int getinfo()
   {
